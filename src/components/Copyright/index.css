@@ -1,0 +1,22 @@
+.logo {
+  display: block;
+  margin: 0;
+}
+
+.logo[href] {
+  cursor: pointer;
+}
+
+.logo[href]:hover,
+.logo[href]:focus {
+
+}
+.logo[href]:active{
+
+}
+
+.logo__img {
+  display: block;
+  width: 68px;
+  height: 68px;
+}
