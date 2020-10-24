@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './index.css';
+import Button from '../Button';
 
 const Contact = () => (
   <section className="contact">
@@ -20,7 +21,9 @@ const Contact = () => (
           <label className="visually-hidden" htmlFor="email">E-mail</label>
           <input className="contact__input" type="email" id="email" name="email" placeholder="E-mail" />
         </p>
-        <button className="contact__submit" type="submit">Позвонить мне</button>
+        <p className="contact__submit">
+          <Button text="Позвонить мне" type="submit" />
+        </p>
         <p className="contact__agreement">
           Я даю своё <a href="/">согласие</a> на&nbsp;обработку моих персональных&nbsp;данных.
         </p>
