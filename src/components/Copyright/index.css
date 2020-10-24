@@ -1,22 +1,11 @@
-.logo {
-  display: block;
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.copyright__text {
+  max-width: 130px;
   margin: 0;
-}
-
-.logo[href] {
-  cursor: pointer;
-}
-
-.logo[href]:hover,
-.logo[href]:focus {
-
-}
-.logo[href]:active{
-
-}
-
-.logo__img {
-  display: block;
-  width: 68px;
-  height: 68px;
 }

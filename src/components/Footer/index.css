@@ -1,15 +1,3 @@
-.copyright {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #ffffff;
-}
-
-.copyright__text {
-  max-width: 130px;
-  margin: 0;
-}
-
 .page-footer {
   padding-top: 45px;
   padding-bottom: 45px;
